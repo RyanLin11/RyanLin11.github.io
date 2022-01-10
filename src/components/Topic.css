@@ -1,0 +1,13 @@
+.title {
+    text-decoration: underline rgba(135,206,235,0);
+    transition: text-decoration-color 300ms;
+}
+
+.display-container:hover .title {
+    text-decoration-color: rgba(135,206,235,1);
+}
+
+.display-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
